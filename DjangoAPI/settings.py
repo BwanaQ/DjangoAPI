@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     # 3rd Party Apps
     'rest_framework',
     'rest_framework.authtoken',
@@ -45,10 +46,13 @@ INSTALLED_APPS = [
     'corsheaders',
     'cloudinary',
     'cloudinary_storage',
+
+    # my apps
+    'product',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:4200",
-    "http://localhost:4200",
+    "http://127.0.0.1:8080",
+    "http://localhost:8080",
 
 ]
 MIDDLEWARE = [
